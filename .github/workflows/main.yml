@@ -29,7 +29,7 @@ jobs:
     - name: installing surge 
       run: npm install -g surge
     - name: Run surge
-      run: surge ./build https://html786.surge.sh/ --token ${{ secrets.NAME }}  
+      run: surge ./build https://html786.surge.sh/ --token ${{ secrets.pk }}  
     # Runs a single command using the runners shell
     - name: Run a one-line script
       run: echo Hello, world!
